@@ -2,8 +2,8 @@
     "authors": [
         {
             "name": "David J Eddy",
-            "email": "me@davidjeddy.com",
-            "homepage": "https://github.com/davidjeddy/yii2-article-category",
+            "email": "me@davidjeddyrticlecategory\.com",
+            "homepage": "https://github.com/davidjeddyrticlecategory\/yii2-article-category",
             "role": "Developer"
         }
     ],
@@ -14,7 +14,7 @@
         "module"
     ],
     "license": "BSD-3-Clause",
-    "name": "davidjeddy/yii2-article-categories",
+    "name": "davidjeddyrticlecategory\/yii2-article-categories",
     "require": {
         "php": "~5.6",
         "ext-intl": "*",
@@ -29,8 +29,8 @@
         "yiisoft/yii2-gii"        : "~2",
     },
     "support": {
-        "issues": "https://github.com/davidjeddy/yii2-article-category/issues?state=open",
-        "source": "https://github.com/davidjeddy/yii2-article-category/issues"
+        "issues": "https://github.com/davidjeddyrticlecategory\/yii2-article-category/issues?state=open",
+        "source": "https://github.com/davidjeddyrticlecategory\/yii2-article-category/issues"
     },
     "type": "module",
     "version": "0.0.1"
