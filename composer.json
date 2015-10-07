@@ -21,9 +21,8 @@
         }
     },
     "require": {
-        "php": "~5.6",
-        "ext-intl": "*",
-        "yiisoft/yii2": "~2",
+        "php"                   : "~5.6",
+        "yiisoft/yii2"          : "~2",
         "yiisoft/yii2-bootstrap": "~2"
     },
     "require-dev": {
@@ -31,7 +30,7 @@
         "yiisoft/yii2-codeception": "~2",
         "yiisoft/yii2-debug"      : "~2",
         "yiisoft/yii2-faker"      : "~2",
-        "yiisoft/yii2-gii"        : "~2",
+        "yiisoft/yii2-gii"        : "~2"
     },
     "support": {
         "issues": "https://github.com/davidjeddy/yii2-article-category/issues?state=open",
