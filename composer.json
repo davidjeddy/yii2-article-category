@@ -14,7 +14,7 @@
         "module"
     ],
     "license": "BSD-3-Clause",
-    "name": "davidjeddy/yii2-article-categories",
+    "name": "davidjeddy/yii2-article-category",
     "autoload": {
         "psr-4": {
             "davidjeddy\\articlecategory\\": "/src"
