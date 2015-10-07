@@ -1,0 +1,37 @@
+{
+    "authors": [
+        {
+            "name": "David J Eddy",
+            "email": "me@davidjeddy.com",
+            "homepage": "https://github.com/davidjeddy/yii2-article-category",
+            "role": "Developer"
+        }
+    ],
+    "description": "Multi level article category module",
+    "keywords": [
+        "yii2",
+        "framework",
+        "module"
+    ],
+    "license": "BSD-3-Clause",
+    "name": "davidjeddy/yii2-article-categories",
+    "require": {
+        "php": "~5.6",
+        "ext-intl": "*",
+        "yiisoft/yii2": "~2",
+        "yiisoft/yii2-bootstrap": "~2"
+    },
+    "require-dev": {
+        "codeception/codeception" : "~2",
+        "yiisoft/yii2-codeception": "~2",
+        "yiisoft/yii2-debug"      : "~2",
+        "yiisoft/yii2-faker"      : "~2",
+        "yiisoft/yii2-gii"        : "~2",
+    },
+    "support": {
+        "issues": "https://github.com/davidjeddy/yii2-article-category/issues?state=open",
+        "source": "https://github.com/davidjeddy/yii2-article-category/issues"
+    },
+    "type": "module",
+    "version": "0.0.1"
+}
