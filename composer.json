@@ -33,10 +33,9 @@
         "yiisoft/yii2-gii"        : "~2"
     },
     "recommend": {
-        "intervention/image": "^2.1",
-        "trntv/yii2-glide": "^1.0.0",
-        "trntv/yii2-file-kit": "^1.0.0",
-        "asofter/yii2-imperavi-redactor": "dev-master@dev",
+        "asofter/yii2-imperavi-redactor": "~0.0.2",
+        "trntv/yii2-file-kit"           : "^1.0.0",
+        "trntv/yii2-glide"              : "^1.0.0"
     },
     "support": {
         "issues": "https://github.com/davidjeddy/yii2-article-category/issues?state=open",
