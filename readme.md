@@ -32,5 +32,4 @@ Extention module for https://github.com/trntv/yii2-starter-kit
     ?>
 ```
 
-
-
+See ./docs/ArticleCategory.php for an example of the administrative model
