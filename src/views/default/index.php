@@ -2,7 +2,7 @@
 /* @var $this yii\web\View */
 
 $this->title = Yii::t('frontend', 'Article Category');
-// $this->params['breadcrumbs'][] = $this->title;
+$this->params['breadcrumbs'][] = $this->title;
 ?>
 
 <div id="article-index">
