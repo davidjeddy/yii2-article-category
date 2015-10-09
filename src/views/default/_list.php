@@ -10,7 +10,7 @@ use yii\helpers\Html;
     <div class="col-xs-12">
         <div class="article-category">
 
-            <?php if ($model->thumbnail_path): ?>
+            <?php if ($model->thumbnail_path) { ?>
             <div class="article-thumb-img"
                  style="background:url('<?php echo Yii::$app->glide->createSignedUrl([
                         'glide/index',
@@ -18,7 +18,7 @@ use yii\helpers\Html;
                     ], true) ?>');"
             >
             </div>
-            <?php endif; ?>
+            <?php }; ?>
 
             <div class="article-cat-body">
                 <h2 class="article-title">

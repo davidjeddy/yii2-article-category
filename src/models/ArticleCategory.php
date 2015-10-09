@@ -25,7 +25,6 @@ use yii\behaviors\TimestampBehavior;
 class ArticleCategory extends \yii\db\ActiveRecord
 {
     const STATUS_ACTIVE = 1;
-    const STATUS_DRAFT  = 0;
 
     /**
      * @var array

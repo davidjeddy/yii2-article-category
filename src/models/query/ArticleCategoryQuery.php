@@ -11,6 +11,9 @@ namespace davidjeddy\articlecategory\models\query;
 use davidjeddy\articlecategory\models\ArticleCategory;
 use yii\db\ActiveQuery;
 
+/**
+ * @author David J Eddy <me@davidjeddy.com>
+ */
 class ArticleCategoryQuery extends ActiveQuery
 {
     /**
