@@ -6,6 +6,7 @@ use davidjeddy\articlecategory\models\search\ArticleCategorySearch;
 
 use yii;
 use yii\web\Controller;
+use yii\helpers\Url;
 
 /**
  * @author David J Eddy <me@davidjeddy.com>
@@ -25,9 +26,9 @@ class DefaultController extends Controller
         ];
 
         // if the dataProvider has 0 children, it has articles
-        if ($dataProvider->getCount() == 0) {
+        if ($dataProvider->getCount() < 1) {
 
-            return $this->redirect('../article/parent_id='.Yii::$app->request->queryParams['id']);
+            return $this->redirect(['../article/index', 'category_id' => Yii::$app->request->queryParams['id']]);
         }
 
         return $this->render('index', [
