@@ -1,2 +1,3 @@
 .DS_*
 tests/_support/_generated
+tests/tests/_support
