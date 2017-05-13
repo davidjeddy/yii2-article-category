@@ -17,7 +17,7 @@ class m151009_043443_article_category_update extends Migration
             ALTER TABLE `article_category`
             ADD COLUMN `order`              INT NULL DEFAULT NULL AFTER `updated_at`,
             ADD COLUMN `thumbnail_base_url` VARCHAR(1024) CHARACTER SET 'utf8' COLLATE 'utf8_unicode_ci' NULL DEFAULT NULL AFTER `order`,
-            ADD COLUMN `thumbnail_path`     VARCHAR(1024) CHARACTER SET 'utf8' COLLATE 'utf8_unicode_ci' NULL DEFAULT NULL AFTER `article_categorycol`;
+            ADD COLUMN `thumbnail_path`     VARCHAR(1024) CHARACTER SET 'utf8' COLLATE 'utf8_unicode_ci' NULL DEFAULT NULL AFTER `thumbnail_base_url`;
         ");
 
         return $command->execute();
