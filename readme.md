@@ -21,14 +21,14 @@ $config = [
 
 # DB Migration
 1. cd `{project root}`
-2. `php yii migrate/up --migrationPath=@vendor/davidjedydy/migration`
+2. `php ./console/yii migrate/up --migrationPath=@vendor/davidjeddy/yii2-article-category/migration`
 
 # CRUD form fields
 1. Add a input field for the attribute 'order' to the article category CRUD form
 2. Follow the directions to get `trntv/yii2-file-kit` installed and working properly
 3. Add the CRUD form field element for thumbnail
 ```PHP
-    echo $form->field($model, 'thumbnail')->widget(
+    echo $form->field($model, 'order')->widget(
         \trntv\filekit\widget\Upload::className(),
         [
             'url' => ['/file-storage/upload'],
@@ -40,5 +40,5 @@ See ./docs/ArticleCategory.php for an example of the altered article-category mo
 See ./docs/_form.php for example of  CRUD form
 
 # TODO
-0.0.5 : Add logic to display categories AND article per navigation level on each VW
+0.0.X : Add logic to display categories AND article per navigation level on each VW
 
